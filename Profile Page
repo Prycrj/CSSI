@@ -1,0 +1,39 @@
+
+<title>Rayona Pryce's Profile</title>
+
+<body bgcolor="gold">
+
+<h1>Rayona Pryce</h1>
+
+<img src="/cslab/home/RayonaPryce/Downloads/rayonapryce.jpg" width="350" height="350" alt="Photo of Rayona Pryce">
+
+<h2>Summary</h2>
+<p>I live in New York and attend Medgar Evers College. I like music and theme parks.</p>
+
+<video width="560" height="240" controls>
+ <source src="SZA-  Love Galore ft. Travis Scott (Lyrics).mp4" type="video/mp4">
+Your browser does not support the audio element.
+</video>
+
+
+
+<h2>Hometown</h2>
+Clermont, Florida
+
+<h2>University</h2>
+Medgar Evers College
+
+<h2>Other Profiles</h2>
+<ul>
+<li><a href="https://www.facebook.com/rayona.pryce">Facebook</a></li>
+<li><a href="https://www.instagram.com/rayonajoan/">Instagram</a></li>
+</ul>
+
+<h2>My Favorite Movies</h2>
+<ol>
+<li>Sound of Music</li>
+<li>Doctor Strange</li>
+<li>Hidden Figures</li>
+<marquee> YAAAAAAAASSSSSSSSS!!!!!!</marquee>
+</ol>
+</body>
