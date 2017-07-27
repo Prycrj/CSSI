@@ -1,0 +1,38 @@
+body {
+  background-color: lightcoral;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-shadow: 3px 2px red;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+header, footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+
+div.scrollmenu{
+  background-color: #255;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text decoration: none;
+}
+
+div scrollmenu a:hover {
+   background-color:#255;
+}
