@@ -1,0 +1,20 @@
+h1
+{
+  color: purple;
+  background-color: #42b0f4;
+}
+  
+h2{
+  color: purple;
+  background-color: #42f4d1;
+}
+
+p
+{
+  text-indent: 1cm;
+}
+
+ol{
+  background-color: #cef442;
+  font-style: italic;
+}
