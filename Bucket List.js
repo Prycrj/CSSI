@@ -9,11 +9,25 @@ if (bulletstyle=='line-through')
 
 else
  document.getElementById(Boom).style.textDecoration='line-through';
-
 }
+
 function clearAll()
 {
-  names=document.getElementsByClassName('taskdone')
-for (i=0; i<names.length; i++)
-names[i].getElementById('taskdone').style.textDecoration='none';
+  names=$('.task');
+  names.css("text-decoration","none");
+}
+
+function Add(text)
+{
+var name = prompt("Add List");
+addListItem(name);
+}
+
+function addListItem(text)
+
+{
+  list = document.querySelector('ol');
+  item = document.createElement('li');
+  item.innerText = text;
+  list.appendChild(item);
 }

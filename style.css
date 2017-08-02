@@ -1,6 +1,4 @@
-body {
-  background-color: lightcoral;
-}
+
 h1 {
   color: black;
   text-align: center;
@@ -19,6 +17,7 @@ header, footer {
   text-align: center;
 }
 
+
 div.scrollmenu{
   background-color: #255;
   overflow: auto;
@@ -36,6 +35,9 @@ div.scrollmenu a {
 div scrollmenu a:hover {
    background-color:#255;
 }
-img {
-rotateimg:180;
+
+
+div{
+  background: linear-gradient(90deg, currentColor 50%, black 50%);
+  color: #f4a742;
 }
