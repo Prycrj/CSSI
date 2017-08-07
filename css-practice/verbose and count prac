@@ -1,0 +1,128 @@
+a = [1,2,3]
+
+2 in a
+
+
+def isEven(n):
+  if n%2==0:
+    return True
+  else:
+   return False
+
+print isEven(9)
+
+
+def isEvenshort(n):
+  return bool(n %2 == 0)
+
+print isEvenshort(20)
+
+
+def isEvenVerbose(x,verbose= False):
+  i = x % 2 ==0
+  '''
+  if verbose ==True:
+   if i:
+        print "number",x, "is even"
+   else:
+        print "number",x, "is odd"
+ '''
+  return i
+
+
+
+isEvenVerbose(6, False)
+isEvenVerbose(6, True)
+isEvenVerbose(3,True)
+
+
+def countUp():
+ n = 0
+ while n <= 9:
+   print n+1
+   n=n+1
+ print "launch!"
+
+countUp()
+
+
+
+def countDown():
+ n = 11
+ while n>=1:
+   print n-1
+   n=n-1
+ print "launch!"
+
+countDown()
+
+
+for I in ([1,2,3,4]):
+ print I
+
+for x in (['a', 'b', 'c', 'd']):
+  print x
+
+
+for x in range(4):
+ print x
+
+for x in "google":
+  print x
+
+
+
+
+S= raw_input('type word')
+collect=[]
+n=""
+for x in range(0,len(S)):
+  if x%2 == 0:
+    n= n+ S[x].upper()
+  else:
+    n= n+S[x].lower()
+
+print(n)
+
+
+
+a=[]
+a.append('C')
+a.append('a')
+a.append('P')
+a.append('i')
+a.append('T')
+a.append('a')
+
+.join(a)
+
+
+
+
+#function that takes a dictionary and a string as parameters. Returns the key of the dictionary entry whos value matches the string parameter. Otherwise it returns "Invalid Student Name"
+
+
+
+students = {
+  "10001578":"Johnathan",
+  "10005776":"Elvis",
+  "10007543":"Abigail",
+  "10008712":"Nusrath",
+  "10005151":"Olawale",
+  "10006570":"Olivia",
+  "10002570":"Rayona",
+  "10002576":"Egide",
+  "10005789":"Zanif",
+  "10002213":"Rahid",
+  "1003207":"Imran"}
+
+def studentLookUp(dic, name):
+ for x in dic:
+   if name==dic[x]:
+    return x
+ return "Invalid Student Name"
+
+
+name=raw_input("Enter Name")
+
+print studentLookUp(students,name)
