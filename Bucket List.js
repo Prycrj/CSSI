@@ -10,7 +10,6 @@ if (bulletstyle=='line-through')
 else
  document.getElementById(Boom).style.textDecoration='line-through';
 }
-
 function clearAll()
 {
   names=$('.task');
@@ -28,6 +27,6 @@ function addListItem(text)
 {
   list = document.querySelector('ol');
   item = document.createElement('li');
-  item.innerText = text;
+  item.innerHTML = text + ' <button type= "button" onclick="Tas">PUSH ME</button>';
   list.appendChild(item);
 }
