@@ -1,0 +1,53 @@
+#navbar{
+  background-color: transparent;
+  font-size: 20px;
+  font-family:"Brush Script MT", cursive;
+  font-style: oblique;
+  border-bottom: 1px solid black;
+  outline-style: double;
+  outline-color: black;
+  letter-spacing: 4px;
+}
+
+#navbar a {
+  color: #9f7ea8;
+}
+
+#navbar a:hover{
+  color: white;
+}
+
+#navbar a:visited{
+  color: transparent;
+}
+
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("beach.jpg");
+  position: relative;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery{
+  overflow:hidden;
+  position:relative;
+  transition: all 1s ease in;
+  }
+
+
+.gallery a:hover img{
+  transform: scale(1.4);
+  transition: all 1s ease in;
+  filter: brightness(.5);
+  opacity: 1;
+
+
+}
