@@ -1,0 +1,60 @@
+h1 {
+  color: #600080;
+  background-color: #000000;
+}
+h2 {
+  color: #600080 ;
+}
+p {
+  text-indent: 1cm;
+}
+#output {
+  background-color: #600080;
+  font-style: italic;
+  color: #ffffff;
+  padding: 20px;
+  display: inline-block;
+}
+
+#output2 {
+  background-color: #600080;
+  font-style: italic;
+  color: #ffffff;
+  padding: 20px;
+  display: inline-block;
+}
+
+#output3 {
+  background-color: #600080;
+  font-style: italic;
+  color: #ffffff;
+  padding: 20px;
+  display: inline-block;
+}
+
+input{
+  background-color: #ddccff;
+}
+body
+{
+text-align: center;
+font-family: sans-serif;
+
+}
+
+ul {
+
+list-style: none;
+
+
+float: center;
+ display:flex;
+   list-style:none;
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color:grey;
+
+
+}
